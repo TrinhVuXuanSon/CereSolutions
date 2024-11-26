@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>26_11_2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-[#fff] text-gray-800">
+    <header
+      class="relative bg-[url('../imgs/header.jpg')] bg-[center_center] bg-cover bg-no-repeat"
+    >
+      <!-- Navbar -->
+      <nav class="shared-bg text-white py-4 shadow-lg">
+        <div
+          class="max-w-screen-xl mx-auto flex justify-between items-center px-5"
+        >
+          <!-- Logo -->
+          <a href="#" class="text-2xl font-bold">
+            <img src="../imgs/logo.png" class="w-24 h-10" alt="" />
+          </a>
+
+          <div class="md:hidden flex items-center">
+            <button id="hamburger-icon" class="text-3xl">
+              &#9776;
+            </button>
+          </div>
+
+          <!-- Navigation Links -->
+          <ul class="hidden md:flex items-center gap-6 ml-auto">
+            <li>
+              <a
+                href="#home"
+                class="hover:text-orange-500 hover:border-b-2 hover:border-b-[#f77032e3] hover:border-solid"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#services"
+                class="hover:text-orange-500 hover:border-b-2 hover:border-b-[#f77032e3] hover:border-solid"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="hover:text-orange-500 hover:border-b-2 hover:border-b-[#f77032e3] hover:border-solid"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pages"
+                class="hover:text-orange-500 hover:border-b-2 hover:border-b-[#f77032e3] hover:border-solid"
+                >Pages</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimonial"
+                class="hover:text-orange-500 hover:border-b-2 hover:border-b-[#f77032e3] hover:border-solid"
+                >Testimonial</a
+              >
+            </li>
+          </ul>
+          <!-- Contact Button -->
+          <div id="contact-button" class="hidden md:block ml-4">
+            <a
+              href="#contact"
+              class="bg-orange-500 px-4 py-2 rounded-md hover:bg-orange-600"
+            >
+              Contact Support
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="home" class="shared-bg text-white py-20">
+        <div class="max-w-screen-xl mx-auto px-5">
+          <div class="md:max-w-lg">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+              Get <span class="text-orange-500">ready</span> for your business
+              <br />
+              & upgrade <span class="text-green-500">all aspects</span>
+            </h1>
+            <p class="text-lg md:text-xl mb-8">
+              Mexant HTML5 Template is provided for free of charge. This layout
+              is based on Bootstrap 5 CSS framework.
+            </p>
+            <div class="flex gap-4">
+              <a
+                href="#discover"
+                class="bg-green-500 text-white px-6 py-3 rounded-md text-lg hover:bg-green-600"
+              >
+                Discover More
+              </a>
+              <a
+                href="#contact"
+                class="bg-orange-500 text-white px-6 py-3 rounded-md text-lg hover:bg-orange-600"
+              >
+                Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Services Section -->
+    <section class="bg-[#fff] px-5 py-10" id="services">
+      <div
+        class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 max-w-screen-xl mx-auto"
+      >
+        <div class="flex items-center gap-4 bg-white p-6 rounded-lg shadow-lg">
+          <div class="service-icon">
+            <img class="w-24 h-10" src="../imgs/logo.png" alt="service-icon" />
+          </div>
+          <div class="text-black">
+            <h3 class="text-xl mb-2">CSS Templates</h3>
+            <p class="text-base leading-6">
+              TemplateMo website is the best for you to explore and download
+              free website templates.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4 bg-white p-6 rounded-lg shadow-lg">
+          <div class="service-icon">
+            <img class="w-24 h-10" src="../imgs/logo.png" alt="service-icon" />
+          </div>
+          <div class="text-black">
+            <h3 class="text-xl mb-2">CSS Templates</h3>
+            <p class="text-base leading-6">
+              TemplateMo website is the best for you to explore and download
+              free website templates.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4 bg-white p-6 rounded-lg shadow-lg">
+          <div class="service-icon">
+            <img class="w-24 h-10" src="../imgs/logo.png" alt="service-icon" />
+          </div>
+          <div class="text-black">
+            <h3 class="text-xl mb-2">CSS Templates</h3>
+            <p class="text-base leading-6">
+              TemplateMo website is the best for you to explore and download
+              free website templates.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4 bg-white p-6 rounded-lg shadow-lg">
+          <div class="service-icon">
+            <img class="w-24 h-10" src="../imgs/logo.png" alt="service-icon" />
+          </div>
+          <div class="text-black">
+            <h3 class="text-xl mb-2">CSS Templates</h3>
+            <p class="text-base leading-6">
+              TemplateMo website is the best for you to explore and download
+              free website templates.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4 bg-white p-6 rounded-lg shadow-lg">
+          <div class="service-icon">
+            <img class="w-24 h-10" src="../imgs/logo.png" alt="service-icon" />
+          </div>
+          <div class="text-black">
+            <h3 class="text-xl mb-2">CSS Templates</h3>
+            <p class="text-base leading-6">
+              TemplateMo website is the best for you to explore and download
+              free website templates.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4 bg-white p-6 rounded-lg shadow-lg">
+          <div class="service-icon">
+            <img class="w-24 h-10" src="../imgs/logo.png" alt="service-icon" />
+          </div>
+          <div class="text-black">
+            <h3 class="text-xl mb-2">CSS Templates</h3>
+            <p class="text-base leading-6">
+              TemplateMo website is the best for you to explore and download
+              free website templates.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="relative bg-[url('../imgs/header.jpg')] bg-cover bg-center text-white py-20"
+    >
+      <div
+        class="max-w-screen-xl mx-auto px-5 flex flex-col md:flex-row items-center text-center md:text-left"
+      >
+        <!-- Text Content -->
+        <div class="md:w-1/2">
+          <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            Business <span class="text-green-500">Solutions</span> and
+            <span class="text-orange-500">Crypto</span> Investments
+          </h1>
+          <p class="text-lg md:text-xl mb-8">
+            Professional solutions for businesses and investment opportunities
+            in cryptocurrency.
+          </p>
+        </div>
+        <!-- Buttons -->
+        <div class="md:w-1/2 flex justify-center md:justify-end gap-8">
+          <a
+            href="#discover"
+            class="bg-green-500 px-6 py-3 rounded-md text-lg font-semibold hover:bg-green-600"
+          >
+            Discover More
+          </a>
+          <a
+            href="#contact"
+            class="bg-orange-500 px-6 py-3 rounded-md text-lg font-semibold hover:bg-orange-600"
+          >
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-100 px-5 py-20" id="about">
+      <div class="max-w-screen-xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-10">
+          <h2 class="text-orange-500 text-lg font-semibold uppercase">
+            About Us
+          </h2>
+          <h3 class="text-3xl md:text-4xl font-bold text-gray-800">
+            Know Us Better
+          </h3>
+        </div>
+
+        <!-- Content Wrapper -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Left Column -->
+          <div>
+            <!-- Tab Navigation -->
+            <div class="flex">
+              <button
+                class="tab-btn bg-orange-500 text-white px-6 py-2 rounded-l-md"
+              >
+                Web Design
+              </button>
+              <button class="tab-btn bg-gray-200 text-gray-800 px-6 py-2">
+                Graphics
+              </button>
+              <button
+                class="tab-btn bg-gray-200 text-gray-800 px-6 py-2 rounded-r-md"
+              >
+                Web Coding
+              </button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="mt-8">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="px-4 py-3 text-gray-700">Project Title</th>
+                    <th class="px-4 py-3 text-gray-700">Budget</th>
+                    <th class="px-4 py-3 text-gray-700">Deadline</th>
+                    <th class="px-4 py-3 text-gray-700">Client</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b">
+                    <td class="px-4 py-3 text-green-500">Website Redesign</td>
+                    <td class="px-4 py-3">$1,500 to $2,200</td>
+                    <td class="px-4 py-3">2022 Dec 12</td>
+                    <td class="px-4 py-3">Web Biz</td>
+                  </tr>
+                  <tr class="border-b">
+                    <td class="px-4 py-3 text-green-500">Website Renovation</td>
+                    <td class="px-4 py-3">$2,500 to $3,600</td>
+                    <td class="px-4 py-3">2022 Dec 10</td>
+                    <td class="px-4 py-3">Online Ads</td>
+                  </tr>
+                  <tr class="border-b">
+                    <td class="px-4 py-3 text-green-500">Marketing Plan</td>
+                    <td class="px-4 py-3">$2,500 to $4,200</td>
+                    <td class="px-4 py-3">2022 Dec 8</td>
+                    <td class="px-4 py-3">Web Biz</td>
+                  </tr>
+                  <tr>
+                    <td class="px-4 py-3 text-green-500">All-new Website</td>
+                    <td class="px-4 py-3">$3,000 to $6,600</td>
+                    <td class="px-4 py-3">2022 Dec 2</td>
+                    <td class="px-4 py-3">Web Presence</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div>
+            <h4 class="text-lg font-bold text-gray-800 mb-4">
+              Please tell us about your idea and how you want it to be
+            </h4>
+            <p class="text-gray-600 mb-6">
+              You are allowed to use this template for your websites. You are
+              <span class="text-red-500 font-semibold">NOT allowed</span> to
+              redistribute the template ZIP file on any other template websites.
+            </p>
+            <a
+              href="#"
+              class="bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600"
+              >Discover More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
