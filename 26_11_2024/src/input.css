@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-orange {
+      @apply bg-textprimary px-4 py-2 rounded-md text-lg hover:bg-orange-600;
+    }
+    .btn-green {
+      @apply bg-textsecondary text-white px-6 py-3 rounded-md text-lg hover:bg-green-600;
+    }
+    .navbar-items {
+      @apply hover:text-textprimary hover:border-b-2 hover:border-b-[#f77032e3] hover:border-solid;
+    }
+    .imgs-footer {
+      @apply w-32 h-auto opacity-70 transition-opacity duration-300;
+    }
+    .imgs-services {
+      @apply w-32 h-10;
+    }
+    .services-items {
+      @apply flex items-center gap-4 bg-white p-6 rounded-lg shadow-lg;
+    }
+    .services-items-right-title {
+      @apply text-xl mb-2;
+    }
+    .services-items-right-info {
+      @apply text-base leading-6;
+    }
+    .background {
+      @apply relative bg-[url('../imgs/header.jpg')] bg-[center_center] bg-cover bg-no-repeat;
+    }
+    .input-financial {
+      @apply w-full p-3 rounded-md bg-gray-700 border border-gray-600 text-black focus:outline-none focus:border-white focus:bg-white;
+    }
+    .title-input-financial {
+      @apply block text-sm font-medium mb-1;
+    }
+    .section-spacing {
+      @apply ml-auto mr-auto pl-5 pr-5 max-w-7xl;
+    }
+  }
